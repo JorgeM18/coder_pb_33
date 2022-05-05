@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/mensaje', (req, res) => {
-  res.send('Hola a todos desde Heroku!');
+  res.send('Hola a todos desde Heroku :)');
 });
 
 const server = app.listen(PORT, () => {
